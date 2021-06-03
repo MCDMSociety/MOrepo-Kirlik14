@@ -4,17 +4,11 @@ Originals are taken from [moolibrary](http://home.ku.edu.tr/~moolibrary/) and co
 
 ## Test instances
 
-Instances are named `Kirlik14_<use same format as at moolibrary>.raw` where 
+Instances are named `Kirlik14_ILP_p-[p]_n-[n]_m-[m]_inst-[id].raw` where 
 
-   - `problemClass` is either PPP (Production Planning Problem), or UFLP (Uncapacitated Facility
-      Location Problem).
-   - `n` is the size of the problem. 
    - `p` is the number of objectives.
-   - `rangeOfCosts`: Objective coefficient range e.g. 1-1000.
-   - `costGenerationMethod`: Either random or spheredown. For further details see 
-      the documentation function `genSample` in the R package 
-      [gMOIP](https://CRAN.R-project.org/package=gMOIP).
-   - `constaintId`: Same id if constraints are the same.
+   - `n` is the size of the problem. 
+   - `m` is the number of constraints.
    - `id`: Instance id running within the constraint id.
 
 ### Raw format description 
@@ -22,41 +16,29 @@ Instances are named `Kirlik14_<use same format as at moolibrary>.raw` where
 All instance files are given in raw format (a text file). An example is:
 
 ```
-15 10 5
+10 5 4
 
-minsum minsum minsum minsum minsum
+maxsum maxsum maxsum maxsum 
 
-53 67 4 55 100 6 13 86 6 65 1352 1723 318 1236 2166
-87 36 3 51 70 69 13 87 90 52 1325 1689 1984 422 2024
-98 75 75 68 87 64 94 86 96 42 332 723 565 891 88
-76 85 76 45 45 2 34 98 13 18 1831 777 1873 868 221
-95 33 39 31 65 23 91 19 48 47 939 1189 2083 2255 1015
+-10 -100 36 -48 60 16 69 62 20 19
+71 86 21 97 34 -8 88 -3 76 67
+64 -36 5 6 67 85 76 1 -67 -95
+87 -8 92 -3 40 3 48 37 94 80
 
-1 0 0 0 0 -1 0 0 0 0 0 0 0 0 0
-0 1 0 0 0 1 -1 0 0 0 0 0 0 0 0
-0 0 1 0 0 0 1 -1 0 0 0 0 0 0 0
-0 0 0 1 0 0 0 1 -1 0 0 0 0 0 0
-0 0 0 0 1 0 0 0 1 -1 0 0 0 0 0
-1 0 0 0 0 0 0 0 0 0 -141 0 0 0 0
-0 1 0 0 0 0 0 0 0 0 0 -141 0 0 0
-0 0 1 0 0 0 0 0 0 0 0 0 -141 0 0
-0 0 0 1 0 0 0 0 0 0 0 0 0 -141 0
-0 0 0 0 1 0 0 0 0 0 0 0 0 0 -141
+31 2 66 59 2 64 0 71 64 45
+81 36 26 79 55 72 35 41 73 31
+94 7 32 45 68 57 21 87 0 19
+90 100 99 35 30 -52 99 88 26 7
+0 54 51 54 0 27 48 83 -17 44
 
-2 50
-2 24
-2 5
-2 48
-2 14
-1 0
-1 0
-1 0
-1 0
-1 0
+1 394
+1 419
+1 341
+1 492
+1 295
 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-141 141 141 141 141 141 141 141 141 141 1 1 1 1 1
-
+0 0 0 0 0 0 0 0 0 0 
+100 100 100 100 100 100 100 100 100 100 
 ```
 
 The general format is defined as: 
