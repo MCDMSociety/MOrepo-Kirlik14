@@ -28,6 +28,33 @@
          "format": [ "fgt"],
          "desc": "Randomly generated integer problems with 5 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
          "creator" : "Nicolas Forget <nforget@econ.au.dk>"
+      },
+      {
+         "subfolder": "KP/3obj",
+         "class": "Knapsack",
+         "objectives": 3,
+         "tags": [ "knapsackProblem"],
+         "format": [ "fgt"],
+         "desc": "Knapsack problems with 3 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
+      },
+      {
+         "subfolder": "KP/4obj",
+         "class": "Knapsack",
+         "objectives": 3,
+         "tags": [ "knapsackProblem"],
+         "format": [ "fgt"],
+         "desc": "Knapsack problems with 4 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
+      },
+      {
+         "subfolder": "KP/5obj",
+         "class": "Knapsack",
+         "objectives": 3,
+         "tags": [ "knapsackProblem"],
+         "format": [ "fgt"],
+         "desc": "Knapsack problems with 5 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
       }
    ]
 }

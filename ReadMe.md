@@ -1,6 +1,6 @@
 # Multiobjective Integer Linear Programming Problems -- Originals Taken from [moolibrary](http://home.ku.edu.tr/~moolibrary/)
 
-Originals are taken from [moolibrary](http://home.ku.edu.tr/~moolibrary/) and converted to the raw format specified below. Note that we do NOT claim to have created these instances, we have only converted them to another format.
+Originals are taken from [moolibrary](http://home.ku.edu.tr/~moolibrary/) and converted to the fgt format specified below. Note that we do NOT claim to have created these instances, we have only converted them to another format.
 
 ## Test instances
 
@@ -11,7 +11,7 @@ Instances are named `Kirlik14_ILP_p-[p]_n-[n]_m-[m]_inst-[id].raw` where
    - `m` is the number of constraints.
    - `id`: Instance id running within the constraint id.
 
-### Raw format description 
+### Fgt format description 
 
 All instance files are given in raw format (a text file). An example is:
 
