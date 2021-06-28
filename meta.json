@@ -1,24 +1,33 @@
 {
-   "contributionName": "Template",
+   "contributionName": "Kirlik14",
    "maintainer" : "Lars Relund <junk@relund.dk>",
    "instanceGroups": [
       {
-         "subfolder": "AP",
-         "class": "Assignment",
-         "objectives": 2,
-         "tags": [ "ap", "assignmentProblem", "bi-AP"],
-         "format": [ "raw", "xml" ],
-         "desc": "Instances for the bi-objective assignment problem. Note that we do NOT claim to have created these instances -- we have only added additional objectives",
-         "creator" : "Lars Relund <junk@relund.dk>"
+         "subfolder": "ILP/3obj",
+         "class": "ILP",
+         "objectives": 3,
+         "tags": [ "ilp", "integer"],
+         "format": [ "fgt"],
+         "desc": "Randomly generated integer problems with 3 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
       },
       {
-         "subfolder": "MMAP",
-         "class": "Assignment",
-         "objectives": 2,
-         "tags": [ "bi-MMAP", "MMAP", "multi-modal" ],
-         "format": [ "xml" ],
-         "desc": "Instances for the bi-objective multi-modal assignment problem.",
-         "creator" : "Lars Relund <junk@relund.dk>"
+         "subfolder": "ILP/4obj",
+         "class": "ILP",
+         "objectives": 3,
+         "tags": [ "ilp", "integer"],
+         "format": [ "fgt"],
+         "desc": "Randomly generated integer problems with 4 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
+      },
+      {
+         "subfolder": "ILP/5obj",
+         "class": "ILP",
+         "objectives": 3,
+         "tags": [ "ilp", "integer"],
+         "format": [ "fgt"],
+         "desc": "Randomly generated integer problems with 5 objectives. Note that we do NOT claim to have created these instances, but only transformed them into a different text format.",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
       }
    ]
 }
