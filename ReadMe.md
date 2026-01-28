@@ -1,6 +1,6 @@
-# Multiobjective Integer Linear Programming Problems -- Originals Taken from [moolibrary](http://home.ku.edu.tr/~moolibrary/)
+# Multiobjective Integer Linear Programming Problems -- Originals Taken from [moolibrary](https://github.com/srplsyn/MOOLibrary)
 
-Originals are taken from [moolibrary](http://home.ku.edu.tr/~moolibrary/) and converted to the fgt format specified below. Note that we do NOT claim to have created these instances, we have only converted them to another format.
+Originals are taken from [moolibrary](https://github.com/srplsyn/MOOLibrary) and converted to the fgt format specified below. Note that we do NOT claim to have created these instances, we have only converted them to another format.
 
 ## Test instances
 
